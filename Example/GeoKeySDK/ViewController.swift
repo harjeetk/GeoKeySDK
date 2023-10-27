@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import GeoKeySDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let obj = GeoKeySDK(pointlessParam: "Doesn't matter")
+        obj.temp()
     }
 
     override func didReceiveMemoryWarning() {

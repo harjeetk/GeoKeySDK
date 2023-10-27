@@ -1,0 +1,24 @@
+PODS:
+  - GeoKeySDK (0.1.0):
+    - NokeMobileLibrary
+  - NokeMobileLibrary (0.9.2)
+
+DEPENDENCIES:
+  - GeoKeySDK (from `../`)
+  - NokeMobileLibrary
+
+SPEC REPOS:
+  trunk:
+    - NokeMobileLibrary
+
+EXTERNAL SOURCES:
+  GeoKeySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GeoKeySDK: 68e03f4acb654410d3289689559ae83e1e98baf9
+  NokeMobileLibrary: 983084f70d22fa8970482c5f57fae9c01ccabf65
+
+PODFILE CHECKSUM: 3e52b7a76f13129f12094f8c02eccc0e054d31e6
+
+COCOAPODS: 1.12.0

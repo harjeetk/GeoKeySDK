@@ -1,0 +1,29 @@
+{
+  "name": "GeoKeySDK",
+  "version": "0.1.0",
+  "summary": "Geokey SDK provides the various other Pods included for the project, so it will help user to install a single instead of multiple pod.",
+  "swift_versions": "4.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Harjeet/GeoKeySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Harjeet": "harjeetsinghkapule03@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Harjeet/GeoKeySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GeoKeySDK/Classes/**/*",
+  "dependencies": {
+    "NokeMobileLibrary": [
+
+    ]
+  },
+  "swift_version": "4.0"
+}

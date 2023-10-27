@@ -4,10 +4,6 @@ platform :ios, '10.0'
 
 target 'GeoKeySDK_Example' do
   pod 'GeoKeySDK', :path => '../'
+  pod 'NokeMobileLibrary'
 
-  target 'GeoKeySDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
